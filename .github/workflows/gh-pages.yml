@@ -29,5 +29,5 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           # github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_token: "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"
+          github_token: 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
           publish_dir: ./public
